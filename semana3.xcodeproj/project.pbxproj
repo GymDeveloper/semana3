@@ -14,6 +14,8 @@
 		B02E9C5926DE62E7000362A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02E9C5826DE62E7000362A8 /* Assets.xcassets */; };
 		B02E9C5C26DE62E7000362A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02E9C5A26DE62E7000362A8 /* LaunchScreen.storyboard */; };
 		B02E9C6526DE71D5000362A8 /* AlfaRomeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E9C6426DE71D5000362A8 /* AlfaRomeo.swift */; };
+		B02E9C6726DE7D3B000362A8 /* AlfaRomeoMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E9C6626DE7D3B000362A8 /* AlfaRomeoMini.swift */; };
+		B02E9C6926DE7F68000362A8 /* ExampleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E9C6826DE7F68000362A8 /* ExampleProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		B02E9C5D26DE62E7000362A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B02E9C6326DE6343000362A8 /* MyPlaygroundPOO.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlaygroundPOO.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B02E9C6426DE71D5000362A8 /* AlfaRomeo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlfaRomeo.swift; sourceTree = "<group>"; };
+		B02E9C6626DE7D3B000362A8 /* AlfaRomeoMini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlfaRomeoMini.swift; sourceTree = "<group>"; };
+		B02E9C6826DE7F68000362A8 /* ExampleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				B02E9C5D26DE62E7000362A8 /* Info.plist */,
 				B02E9C6326DE6343000362A8 /* MyPlaygroundPOO.playground */,
 				B02E9C6426DE71D5000362A8 /* AlfaRomeo.swift */,
+				B02E9C6626DE7D3B000362A8 /* AlfaRomeoMini.swift */,
+				B02E9C6826DE7F68000362A8 /* ExampleProtocol.swift */,
 			);
 			path = semana3;
 			sourceTree = "<group>";
@@ -144,7 +150,9 @@
 			files = (
 				B02E9C6526DE71D5000362A8 /* AlfaRomeo.swift in Sources */,
 				B02E9C5426DE62E3000362A8 /* ViewController.swift in Sources */,
+				B02E9C6926DE7F68000362A8 /* ExampleProtocol.swift in Sources */,
 				B02E9C5026DE62E3000362A8 /* AppDelegate.swift in Sources */,
+				B02E9C6726DE7D3B000362A8 /* AlfaRomeoMini.swift in Sources */,
 				B02E9C5226DE62E3000362A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

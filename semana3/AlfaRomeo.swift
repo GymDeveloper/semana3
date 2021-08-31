@@ -10,10 +10,20 @@ import Foundation
 class AlfaRomeo {
     
     // Atributos
-    var modelCar: String = "Stelvio"
-    var hoursePower: Int = 400
-    var color: String = "Red"
-    var doorNumber: Int = 5
+    var modelCar: String
+    var hoursePower: Int
+    var color: String
+    var doorNumber: Int
+    
+    // init es el nombre de mi constructor
+    // Solamente se llena cuando se instancie a la clase 
+    init(carModel:String, hoursePower: Int, color: String, doorNumber: Int) {
+        // carModel = "Jetta"
+        self.modelCar = carModel
+        self.hoursePower = hoursePower
+        self.color = color
+        self.doorNumber = doorNumber
+    }
     
     func turnOnCar() {
         print("El carro encendio")
@@ -25,6 +35,11 @@ class AlfaRomeo {
     
     func speedUp() {
         print("El carro acelero")
+    }
+    
+    func detailCar() {
+        // Mi carro jetta
+        print("Mi carro \(modelCar)")
     }
     
 }

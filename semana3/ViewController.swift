@@ -21,25 +21,26 @@ class ViewController: UIViewController {
      * Frenar
      **/
     
-    @IBOutlet weak var titleLbl: UILabel!
+    @IBOutlet weak var lbltTitleText: UILabel!
     
+    @IBOutlet weak var subTitleLblText: UILabel!
     // Declaramos una variable de *TIPO* AlfaRomeo
     var alfaRomeo: AlfaRomeo?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Instanciamos a la clase AlfaRomeo
-        alfaRomeo = AlfaRomeo()
-        titleLbl.text = "Alfa Romeo - Tecsup"
-        titleLbl.backgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
-        titleLbl.textColor = .white
+        alfaRomeo = AlfaRomeo(carModel: "Stelvio", hoursePower: 600, color: "Blue", doorNumber: 3)
+        
+        lbltTitleText.text = "Alfa Romeo - Tecsup"
+        lbltTitleText.backgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
+        lbltTitleText.textColor = .white
     }
     
-    @IBAction func onClickButton(_ sender: Any) {
-     
-        // Usamos una funcion heredada de la clase AlfaRomeo
+    @IBAction func onClickTurnOnCar(_ sender: Any) {
         alfaRomeo?.turnOnCar()
     }
+    
     
     @IBAction func onClickBackText(_ sender: Any) {
     

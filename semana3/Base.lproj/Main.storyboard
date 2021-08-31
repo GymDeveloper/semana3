@@ -28,7 +28,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Prender Carro"/>
                                 <connections>
-                                    <action selector="onClickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cts-Ux-ooG"/>
+                                    <action selector="onClickTurnOnCar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Da-Dd-56l"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ByZ-fH-rr0">
@@ -55,17 +55,25 @@
                                     <action selector="onClickDetail:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hjU-ir-fVZ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yws-KE-SRL">
+                                <rect key="frame" x="20" y="122" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="titleLbl" destination="fDN-ee-gQD" id="CPW-BC-2eY"/>
+                        <outlet property="lbltTitleText" destination="fDN-ee-gQD" id="cMY-WG-MmZ"/>
+                        <outlet property="subTitleLblText" destination="yws-KE-SRL" id="ALU-p2-mK1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-442.02898550724643" y="170.75892857142856"/>
+            <point key="canvasLocation" x="-484.05797101449281" y="152.67857142857142"/>
         </scene>
     </scenes>
     <resources>
