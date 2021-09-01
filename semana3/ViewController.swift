@@ -21,16 +21,24 @@ class ViewController: UIViewController {
      * Frenar
      **/
     
+    
+    
+    @IBOutlet weak var lblFooterEditManual: UILabel!
+    
     @IBOutlet weak var lbltTitleText: UILabel!
     
     @IBOutlet weak var subTitleLblText: UILabel!
     // Declaramos una variable de *TIPO* AlfaRomeo
     var alfaRomeo: AlfaRomeo?
+    var mercedez: Mercedez?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Instanciamos a la clase AlfaRomeo
         alfaRomeo = AlfaRomeo(carModel: "Stelvio", hoursePower: 600, color: "Blue", doorNumber: 3)
+        
+        // Instanciamos a la clase mercedez
+        mercedez = Mercedez(color: "Red", price: 50000, hoursePower: 250, date: "2021", model: "CLA 200")
         
         lbltTitleText.text = "Alfa Romeo - Tecsup"
         lbltTitleText.backgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
@@ -38,7 +46,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onClickTurnOnCar(_ sender: Any) {
+        // Prende mi alfa y ademas me da el detalle de mi mercez
         alfaRomeo?.turnOnCar()
+        mercedez?.detail()
     }
     
     

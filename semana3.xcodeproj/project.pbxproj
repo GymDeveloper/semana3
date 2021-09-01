@@ -16,6 +16,9 @@
 		B02E9C6526DE71D5000362A8 /* AlfaRomeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E9C6426DE71D5000362A8 /* AlfaRomeo.swift */; };
 		B02E9C6726DE7D3B000362A8 /* AlfaRomeoMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E9C6626DE7D3B000362A8 /* AlfaRomeoMini.swift */; };
 		B02E9C6926DE7F68000362A8 /* ExampleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E9C6826DE7F68000362A8 /* ExampleProtocol.swift */; };
+		B081E26126DFF99900312122 /* Mercedez.swift in Sources */ = {isa = PBXBuildFile; fileRef = B081E26026DFF99900312122 /* Mercedez.swift */; };
+		B081E26326DFFD4500312122 /* MercedezMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = B081E26226DFFD4500312122 /* MercedezMini.swift */; };
+		B081E26526DFFF1300312122 /* ExampleProtocols2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B081E26426DFFF1300312122 /* ExampleProtocols2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		B02E9C6426DE71D5000362A8 /* AlfaRomeo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlfaRomeo.swift; sourceTree = "<group>"; };
 		B02E9C6626DE7D3B000362A8 /* AlfaRomeoMini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlfaRomeoMini.swift; sourceTree = "<group>"; };
 		B02E9C6826DE7F68000362A8 /* ExampleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProtocol.swift; sourceTree = "<group>"; };
+		B081E26026DFF99900312122 /* Mercedez.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercedez.swift; sourceTree = "<group>"; };
+		B081E26226DFFD4500312122 /* MercedezMini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercedezMini.swift; sourceTree = "<group>"; };
+		B081E26426DFFF1300312122 /* ExampleProtocols2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProtocols2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 				B02E9C6426DE71D5000362A8 /* AlfaRomeo.swift */,
 				B02E9C6626DE7D3B000362A8 /* AlfaRomeoMini.swift */,
 				B02E9C6826DE7F68000362A8 /* ExampleProtocol.swift */,
+				B081E26026DFF99900312122 /* Mercedez.swift */,
+				B081E26226DFFD4500312122 /* MercedezMini.swift */,
+				B081E26426DFFF1300312122 /* ExampleProtocols2.swift */,
 			);
 			path = semana3;
 			sourceTree = "<group>";
@@ -148,12 +157,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B081E26126DFF99900312122 /* Mercedez.swift in Sources */,
 				B02E9C6526DE71D5000362A8 /* AlfaRomeo.swift in Sources */,
 				B02E9C5426DE62E3000362A8 /* ViewController.swift in Sources */,
 				B02E9C6926DE7F68000362A8 /* ExampleProtocol.swift in Sources */,
 				B02E9C5026DE62E3000362A8 /* AppDelegate.swift in Sources */,
+				B081E26326DFFD4500312122 /* MercedezMini.swift in Sources */,
 				B02E9C6726DE7D3B000362A8 /* AlfaRomeoMini.swift in Sources */,
 				B02E9C5226DE62E3000362A8 /* SceneDelegate.swift in Sources */,
+				B081E26526DFFF1300312122 /* ExampleProtocols2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
